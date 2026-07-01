@@ -52,7 +52,13 @@ print(len("apple") > len("banana")) # This prints False because the length of "a
 #comparing something gives either True or false. True is represented by 1 and False is represented by 0. In Python, you can use the int() function to convert a boolean value to an integer. For example:
 print("True == TRue: ", int(True == True)) # This prints 1 because True is equal to True
 
-
+#Logical operators are used to combine multiple boolean expressions and return a boolean value based on the logical relationship between them. The most common logical operators are:
+# AND (&) #Returns True if both expressions are True, otherwise returns False
+x < 5 and x > 2 # This returns True because both expressions are True
+# OR (|) # Returns True if one of the statements is true, otherwise returns False
+x < 5 or x > 2 # This returns True because one of the statements is
+# NOT (!) # Returns True if the expression is False, and returns False if the expression is True
+not(x < 5) # This returns False because the expression x < 5 is True
 
 
 
